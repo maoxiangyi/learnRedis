@@ -10,6 +10,12 @@ import redis.clients.jedis.Jedis;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Describe: 一个简单的爬虫，自动识别要爬取的url地址存放在队列中，供其他线程爬取
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
+ */
 public class Crawler {
     //定义需要爬取的url list
     private static final String redisUrlsWillKey = "crawler:urls:will";

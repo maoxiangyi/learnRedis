@@ -4,6 +4,12 @@ import java.util.Date;
 
 import org.jsoup.helper.StringUtil;
 
+/**
+ * Describe: ндубюЮ
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
+ */
 public class Article {
 	private String id;
 	private String title;
