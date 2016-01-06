@@ -9,7 +9,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Describe: 请补充类描述
+ * Describe: 分布式情况下的Redis连接池
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class MyShardedJedisPool {
 
