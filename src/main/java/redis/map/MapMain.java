@@ -7,7 +7,11 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Describe: 请补充类描述
+ * Describe: 使用map保存用户信息
+ *  主要知识点：del、hset、hgetAll、hkeys、hvals、hget、hincrBy、hdel、
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class MapMain {
     public static void main(String[] args) {
