@@ -5,7 +5,11 @@ import redis.clients.jedis.Jedis;
 import java.util.Set;
 
 /**
- * Describe: 请补充类描述
+ * Describe: 通过SortSetd对武林大会的比武成绩进行排序
+ *  主要知识点：zadd、zrange、zrevrange、zrevrank、zrank、zscore
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class SortMain {
 
