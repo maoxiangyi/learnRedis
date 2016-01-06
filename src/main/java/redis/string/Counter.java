@@ -6,7 +6,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Describe: 擂台比武
+ * Describe: 案列，计算舞林大会多个擂台的比武场次
+ * 主要知识点：线程池、String.incr() String.get()等
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class Counter {
     /**

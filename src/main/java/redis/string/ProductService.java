@@ -10,7 +10,11 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * Describe: 请补充类描述
+ * Describe: 通过String数据结构保存用户对象的集中方式
+ * 主要知识点：使用 person.toString()方法保存用户对象、使用ByteArray保存序列化后的对象、使用Json保存用户对象
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class ProductService {
 

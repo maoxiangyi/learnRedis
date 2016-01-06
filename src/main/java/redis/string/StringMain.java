@@ -5,7 +5,11 @@ import redis.clients.jedis.Jedis;
 import java.util.List;
 
 /**
- * Describe: 请补充类描述
+ * Describe: 学习Redis String数据结构
+ * 主要知识点：set、get、incr、decr、mset、mget、setex、expire、exists等方法
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class StringMain {
 
@@ -40,8 +44,6 @@ public class StringMain {
             System.out.println("真是天上人间呀！");
             Thread.sleep(1000);
         }
-
-
 
         System.out.println();
         //对已经存在的字段设置过期时间

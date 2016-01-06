@@ -5,7 +5,10 @@ import redis.clients.jedis.Jedis;
 import java.util.Random;
 
 /**
- * Describe: 擂台
+ * Describe: 在一个指定的擂台上，随机产生两个人名，进行比武
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class Arena implements Runnable {
 

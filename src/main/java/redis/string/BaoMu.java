@@ -5,7 +5,10 @@ import redis.clients.jedis.Jedis;
 import java.util.concurrent.Callable;
 
 /**
- * Describe: 报幕人员
+ * Describe: 报幕线程，从redis中获取比武场次，然后打印出来
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class BaoMu implements Runnable {
     private Jedis jedis;

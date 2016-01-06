@@ -3,6 +3,10 @@ package redis.string;
 import java.io.Serializable;
 
 /**
+ * Describe: 用户的javaBean
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class Person implements Serializable{
     private static final long serialVersionUID = -9012113097419111583L;
