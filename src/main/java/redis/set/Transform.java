@@ -7,7 +7,10 @@ import java.text.NumberFormat;
 import java.util.Set;
 
 /**
- * Describe: 请补充类描述
+ * Describe: 用户漏斗模型中用户转化的计算
+ * Author:   maoxiangyi
+ * Domain:   www.maoxiangyi.cn
+ * Data:     2016/1/6.
  */
 public class Transform {
 
